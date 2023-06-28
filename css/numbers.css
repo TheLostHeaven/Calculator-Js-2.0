@@ -1,0 +1,46 @@
+/* Estilizado de botones */
+.num-container button{
+  width: 57px;
+  height: 57px;
+  margin-bottom: 0.8rem;
+  margin-left: 0.7rem;
+  border-radius: 10px;
+  background-color: white;
+  font-weight: 900;
+  border: 0;
+  transition: all 0.3s ease-in;
+  font-size: 18px;
+}
+.num-container button:hover{
+  transform: scale(1.1);
+  font-weight: 900;
+  background-color: rgba(61, 61, 61, 0.692);
+  color: white;
+}
+#igual{
+  background-color: #000000;
+  color: white;
+  transition: all 0.3s;
+  animation: 1.6s igual_animate infinite alternate linear;
+}
+@keyframes igual_animate{
+  0%{
+      opacity: 0.9;
+  }
+  30%{
+      opacity: 0.8;
+  }
+  50%{
+      opacity: 0.7;
+  }
+}
+
+#recolor{
+  background-color: rgba(37, 37, 37, 0.692);
+  color: white;
+}
+
+
+
+
+
